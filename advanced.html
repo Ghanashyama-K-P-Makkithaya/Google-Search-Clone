@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./searchStyle.css">
+    <link rel="stylesheet" href="./advanced.css">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <nav class="navPanel" style="justify-content: space-between;">
+            <ul class="pages">
+                <li>
+                    <a href="./index.html">
+                        <img src="./G.png" alt="Google Search" height="30">
+                    </a>
+                </li>
+            </ul>
+            <ul class="pages">
+                <li>
+                    <a href="./index.html">
+                        <button>Back to Google Search</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="pageTitle">
+            Advanced Search
+        </div>
+        <div class="subtle"></div>
+        <div class="tableFlex">
+            <div class="table">
+                <form action="https://www.google.com/search" method="GET">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="font-size:24px;font-weight:100;">
+                                Find pages with...
+                            </th>
+                            <th></th>
+                            <th>
+                                To do this in the search box.
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td class="col1">all these words:</td>
+                                <td class="col2"><input type="text" name="as_q" autocomplete="off"></td>
+                                <td class="col3">Type the important words: <b>tri-colour rat terrier</b></td>
+                            </tr>
+                            <tr>
+                                <td class="col1">this exact word or phrase:</td>
+                                <td class="col2"><input type="text" name="as_epq" autocomplete="off"></td>
+                                <td class="col3">Put exact words in quotes: <b>"rat terrier"</b></td>
+                            </tr>
+                            <tr>
+                                <td class="col1">any of these words:</td>
+                                <td class="col2"><input type="text" name="as_oq" autocomplete="off"></td>
+                                <td class="col3">Type <b>OR</b> between all the words you want: <b>miniature OR standard</b></td>
+                            </tr>
+                            <tr>
+                                <td class="col1">none of these words:</td>
+                                <td class="col2"><input type="text" name="as_eq" autocomplete="off"></td>
+                                <td class="col3">Put a minus sign just before words that you don't want: <b>-rodent, -"Jack Russell"</b></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="col1"></td>
+                                <td class="col2">
+                                    <button type="submit">Advanced Search</button>
+                                </td>
+                                <td class="col3"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </form>
+            </div>
+            <!-- <div class="instructions">
+            </div> -->
+        </div>
+
+    </div>
+</body>
+</html>
